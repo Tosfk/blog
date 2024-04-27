@@ -10,6 +10,8 @@ tags:
 
 <meta name="referrer" content="no-referrer" />
 
+<!-- toc -->
+
 ## 0.意义
 
 在markdown写作时，文章引用的图片往往存放于本地，易受路径改变影响且上传blog时不方便。针对这种情况，使用图床将图片上传到网上并生成链接插入md文件显得尤其方便快捷。本文介绍使用可以快速上传图片并获取图片 URL 链接的工具**PicGo**和国内的代码托管平台**Gitee**两种工具，实现在typora中可以直接插入图片时，自动上传到Gitee并生成URL。
@@ -80,7 +82,7 @@ tags:
 
 
 
-### PS：hexo搭建的blog中图片不显示问题
+## [DLC1] hexo搭建的blog中图片不显示问题
 
 上传到blog中，出现图片不显示问题
 
@@ -95,3 +97,30 @@ tags:
 重新上传后问题解决
 
 <img src="https://gitee.com/tosfk/blog-pic/raw/master/202404271450593.png" alt="image-20240427145018519" style="zoom:50%;" />
+
+
+
+## [DLC2] hexo搭建的blog中图片不显示问题
+
+`[toc]`仅仅在typora中可以生成目录，但是默认的hexo无法渲染目录结构，要实现hexo中目录功能，需要
+
+首先安装插件
+
+```
+npm install hexo-toc --save
+```
+
+配置根目录下的_config.yml文件
+
+```
+toc:
+  maxdepth: 3
+```
+
+然后添加目录，在需要展示目录的地方添加：
+
+```
+<!-- toc -->
+```
+
+> 注意：显示的目录只会包含代码段` < !-- toc -->`之后的内容

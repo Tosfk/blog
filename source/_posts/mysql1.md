@@ -1,13 +1,16 @@
 ---
-title: MySQL入门1-安装与配置
+title: MySQL入门1——安装与配置
 date: 2024-04-27 19:49:15
 categories:
 - MySQL
 tags:
 - DataBase
+- 环境配置
 ---
 
 <meta name="referrer" content="no-referrer" />
+
+<!-- toc -->
 
 ## 1.安装与配置
 
@@ -111,6 +114,20 @@ sudo cat /etc/mysql/debian.cnf
 
 ```
 RDBMS：关系型数据库管理系统
-            └──  RDB：关系型数据库
-                              └──  table：二位表（行：记录 列：字段/属性）
+  └──  RDB：关系型数据库
+        └──  table：二位表（行：记录 列：字段/属性）
 ```
+
+​       
+
+### 1.4 关系型数据库表的设计
+
+实体与实体之间的关系：一对一、一对多、多对多。
+
+#### 1.4.1 一对一
+
+#### 1.4.2 一对多
+
+#### 1.4.3 多对多
+
+
