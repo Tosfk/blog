@@ -1,7 +1,11 @@
 ---
 title: 基于PicGo与Gitee的Typora写作环境搭建之图床配置
 date: 2024-04-27 14:19:29
-tags:
+categories:
+- configure
+tags: 
+- MarkDown
+- 环境配置
 ---
 <meta name="referrer" content="no-referrer" />
 
