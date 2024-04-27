@@ -7,8 +7,8 @@ tags:
 - MarkDown
 - 环境配置
 ---
-<meta name="referrer" content="no-referrer" />
 
+<meta name="referrer" content="no-referrer" />
 
 ## 0.意义
 
