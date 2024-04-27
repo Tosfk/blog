@@ -5,7 +5,7 @@ categories:
 - MySQL
 tags:
 - DataBase
-- 环境配置
+- MySQL
 ---
 
 <!-- toc -->
@@ -42,7 +42,7 @@ FLOAT和DOUBLE溢出截断时不会报错，
 create table user(age TINYINT unsigned not null default 0)
 ```
 
- `unsigned not null default 0`：字段的**完整性约束条件**（见XX节）
+ `unsigned not null default 0`：字段的**完整性约束条件**（见2.3节）
 
 
 

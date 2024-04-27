@@ -6,6 +6,7 @@ categories:
 tags:
 - DataBase
 - 环境配置
+- MySQL
 ---
 
 <meta name="referrer" content="no-referrer" />
