@@ -1,5 +1,5 @@
 ---
-title: Linux入门1
+title: Linux入门1-基本指令
 date: 2024-04-27 16:46:39
 categories:
 - Linux
