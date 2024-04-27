@@ -1,3 +1,4 @@
+<meta name="referrer" content="no-referrer" />
 ---
 title: 基于PicGo与Gitee的Typora写作环境搭建之图床配置
 date: 2024-04-27 14:19:29
@@ -71,3 +72,21 @@ tags:
 打开文件 -> 偏好设置，按下图配置，然后验证图片上传选项，检验是否成功。
 
 <img src="https://gitee.com/tosfk/blog-pic/raw/master/202404271414499.png" alt="image-20240427141429429" style="zoom:67%;" />
+
+
+
+### PS：hexo搭建的blog中图片不显示问题
+
+上传到blog中，出现图片不显示问题
+
+<img src="https://gitee.com/tosfk/blog-pic/raw/master/202404271448552.png" alt="image-20240427144849488" style="zoom:50%;" />
+
+解决办法：在md文件头加上
+
+```
+<meta name="referrer" content="no-referrer" />
+```
+
+重新上传后问题解决
+
+<img src="https://gitee.com/tosfk/blog-pic/raw/master/202404271450593.png" alt="image-20240427145018519" style="zoom:50%;" />
